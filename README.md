@@ -36,6 +36,7 @@
 
 ### Install portainer
 ```
+$ mkdir -p /path/to/volumes
 $ echo "export MOUNT_PATH=/path/to/volumes" >> ~/.bashrc
 ```
 ```
@@ -345,4 +346,7 @@ Connectors are divided into several categories:
 - Stream
 --- 
 
+### Configure an External Import Connector
+
+#### AlienVault OTX
 
