@@ -40,6 +40,7 @@ $ mkdir -p /path/to/volumes
 $ echo "export MOUNT_PATH=/path/to/volumes" >> ~/.bashrc
 ```
 ```
+$ apt install curl
 $ mkdir -p /opt/portainer && cd /opt/portainer
 $ curl -sL https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
 ```
@@ -345,3 +346,8 @@ Connectors are divided into several categories:
 - Internal Import File
 - Stream
 ---
+
+### Configure an External Import Connector
+
+#### AlienVault OTX
+
