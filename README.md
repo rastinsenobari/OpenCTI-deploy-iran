@@ -346,8 +346,3 @@ Connectors are divided into several categories:
 - Internal Import File
 - Stream
 ---
-
-### Configure an External Import Connector
-
-#### AlienVault OTX
-
